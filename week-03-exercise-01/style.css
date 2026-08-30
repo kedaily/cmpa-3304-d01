@@ -1,7 +1,7 @@
  * { box-sizing: border-box; }
 
  body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #e4455c;
   margin: 0;
   padding: 24px;
