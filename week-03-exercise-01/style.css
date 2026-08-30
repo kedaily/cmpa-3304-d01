@@ -2,7 +2,7 @@
 
  body {
   font-family: "Segoe UI", sans-serif;
-  background-color: #e4455c;
+  background-color: #523439;
   margin: 0;
   padding: 24px;
 }
@@ -26,4 +26,11 @@
   font-size: 16pt;
   line-height: 1.6;
   margin: 0;
+}
+
+header {
+  background-color: #2e3e4c;
+  color: #320707;
+  padding: 16px;
+  text-align: justify;
 }
