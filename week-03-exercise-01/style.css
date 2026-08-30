@@ -1,0 +1,29 @@
+ * { box-sizing: border-box; }
+
+ body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f4f1ea;
+  margin: 0;
+  padding: 24px;
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border: 3px solid #2a4d69;
+}
+
+.card h1 {
+  color: #1a2a3a;
+  font-size: 24pt;
+  margin: 0 0 16px;
+}
+
+.card p {
+  color: #334155;
+  font-size: 16pt;
+  line-height: 1.6;
+  margin: 0;
+}
