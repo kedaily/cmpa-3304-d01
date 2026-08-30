@@ -2,7 +2,7 @@
 
  body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background-color: #f4f1ea;
+  background-color: #e4455c;
   margin: 0;
   padding: 24px;
 }
@@ -11,7 +11,7 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 32px;
-  background-color: #e86c6e;
+  background-color: #efc6c7;
   border: 3px solid #2a4d69;
 }
 
