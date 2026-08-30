@@ -12,7 +12,7 @@
   margin: 0 auto;
   padding: 32px;
   background-color: #efc6c7;
-  border: 3px solid #2a4d69;
+  border: 3px solid #c22e01;
 }
 
 .card h1 {
@@ -22,7 +22,7 @@
 }
 
 .card p {
-  color: #334155;
+  color: #0356ca;
   font-size: 16pt;
   line-height: 1.6;
   margin: 0;
