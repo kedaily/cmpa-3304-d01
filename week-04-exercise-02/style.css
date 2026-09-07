@@ -50,8 +50,7 @@ main>p {
 }
 
 .collection-grid .collection-card {
-    flex: 0 0 calc(33.333% - 64px);
-    margin: 0;
+    flex: 0 0 calc((100% - 64px) / 3);
     box-sizing: border-box;
 }
 
