@@ -50,7 +50,7 @@ main>p {
 }
 
 .collection-grid .collection-card {
-    flex: 3 3 300px;
+    flex: 1 1 100%;
     box-sizing: border-box;
 }
 
@@ -87,4 +87,14 @@ main>p {
     font-size: 16px;
     margin-bottom: 0;
     line-height: 1.6;
+}
+
+@media (width >= 480px)
+.collection-grid .collection-card {
+    flex: 1 1 45%;
+}
+
+@media (width >=1024px) 
+    .collection-grid .collection-card {
+        flex: 1 1 30%;
 }
