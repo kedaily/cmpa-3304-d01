@@ -43,16 +43,15 @@ main>p {
 
 .collection-grid {
     margin: 48px 0;
-   justify-content: center;
     display: flex;
     flex-wrap:wrap;
-    flex: 0 0 calc(33.333% - 32px);
+    justify-content: center;
     gap: 32px;
 }
 
 .collection-grid .collection-card {
-    flex: 0 0 calc(33.333% - 20px);
-    margin:10px;
+    flex: 0 0 calc(33.333% - 64px);
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -63,7 +62,7 @@ main>p {
 }
 
 .collection-card img {
-    width: 33.3%;
+    width: 100%;
     height: auto;
     display: block;
     border: 1px solid rgba(0, 0, 0, 0.25);
