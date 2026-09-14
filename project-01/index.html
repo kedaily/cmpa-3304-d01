@@ -3,19 +3,17 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Project 01</title>
+        <meta name="description" content="Kenneth Daily - Project Implementation Manager | 
+        Aviation & Distaster Response" />
+        <title>Kenneth Daily | Personal Landing Page</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="card">
-            <img src="Kenneth.jpg" alt="Kenneth Daily" />
-            <h1>Kenneth Daily</h1>
-            <p>Project Implementation Manager- Central Service Area Hurricane and Natural Disasters</p>
-            
-        </div>
-        <header>
-            <h1>Kenneth Daily</h1>
-            <nav>
+        <!-- Navigation -->
+         <header class="site-header">
+            <div class="header-inner">
+                <a href="#home" class="logo">Kenneth Daily</a>
+            <nav class="main-nav" aria-label="Main Navigation">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -24,52 +22,156 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <div class="container">
-        
-        <section class="button-section">
-            <h2></h2>
-           <button class="button-01">Home</button>
-        </section>
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header> 
 
-
-        <section class="button-section">
-            <h2></h2>
-            <button class="button-02">About</button>
-        </section>
-
-        <section class="button-section">
-            <h2></h2>
-            <button class="button-03">Skills</button>
-        </section>
-
-        <section class="button-section">
-            <h2></h2>
-            <button class="button-04">Projects</button>
-        </section>
-
-        <section class="button-section">
-            <h2>Contact</h2>
-            <p>Kenneth Daily
-            8230 NW County Road 4130
-            Frost, TX 76641
-            Phone: 817-600-4897</p>
-            <button class="button-05">Contact</button>
-        </section>
-
-        </header>
         <main>
-            <ul>
-                <li><h2>About</h2></li>
-            <p>Professional avionic technician with 24 years of experience in the Aviation Sector.</p>
-                <li><h2>Skills</h2></li>
-                <p></p>
-                <li><h2>Projects</h2></li>
-                <p></p>
-                <li><h2>Contact</h2></li>
-                <p></p>
-            </ul>
+            <!-- Profile -->
+            <section class="profile" class="profile">
+                <div class="profile-content">
+                    <div class="portrait-wrap">
+                        <img src="Kenneth.jpg" alt="Kenneth Daily" class="portrait"
+                        width="280" height="280" />
+                    </div>
+                    <div class="profile-text">
+                        <p class="eyebrow">Project Implementation Manager</p>
+                        <h1>Kenneth Daily</h1>
+                        <p class="tagline">
+                                Central Service Area -Hurricane &amp; Natural Disasters<br />
+                                24+ years of aviation and emergency response experience
+                                </p>
+                                <div class="profile-actions">
+                                    <a href="#contact" class="btn btn-primary">Get in Touch </a>
+                                    <a href="about" class="btn btn-secondary">Learn More</a>
+                                </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- About -->
+                       <section id="about" class="section">
+                       <div class="about-grid">
+                            <h3>Professional Background</h3>
+                                                
+                                <p>
+                                    Professional avionics technician with over 24 years of experience in the aviation sector. Currently serving as 
+                                    Project Implementation Manager in the Central Service Area focused on Hurricane Ida disaster response and restoral of facility operations 
+                                </p>
+                                </div>
+                                <divclass="about-card">
+                                    <h3> Focus Areas </h3>
+                                    <p> Coordinating large-scale implementation projects, ensuring operational readiness, and supporting critical infrastructure and aviation
+                                        systems dueing emergency events across the FAA Central Service Area. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Skills -->
+                    <section id="skills" class="section section-alt">
+                        <div class="section-inner">
+                            <h2>Skills &amp; Expertise</h2>
+                            <div class="skills-grid">
+                                <article class="skill-card">
+                                    <div class="skill-icon" aria-hidden="true">✈</div>
+                                    <h3>Avionics</h3>
+                                    <p>9 years of experience as F-16 Avionics Technician. Providing maintenance and troubleshooting for complex technical systems.</p>
+                                </article>
+                                
+                                <article class="skill-card">
+                                    <div class="skill-icon" aria-hidden="true">📋</div>
+                                    <h3>Project Implementation</h3>
+                                    <p>Extensive experience in emergency response procedures and coordination during natural disasters. 
+                                        Providing end-to-end project delivery, coordination, financial oversight, and stakeholder management.</p>
+                                </article>
+                                
+                                <article class="skill-card">
+                                    <div class="skill-icon" aria-hidden="true">🔧</div>
+                                    <h3>Technical Leadership</h3>
+                                    <p>Guiding teams, standard operating procedures, and quality assurance.</p>
+                                </article>
 
-        <a href="../index.html">Back to Homepage</a>
-    
-    </body>
-</html>
+                                <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">🤝</div>
+                        <h3>Stakeholder Relations</h3>
+                        <p>Clear communication with agencies, partners, and internal teams.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+         <section id="projects" class="section">
+            <div class="section-inner">
+                <h2>Selected Projects</h2>
+                <div class="projects-list">
+                    <article class="project-card">
+                        <h3>Hurricane &amp; Natural Disaster Response</h3>
+                        <p class="project-meta">Central Service Area · Ongoing</p>
+                        <p>
+                            Lead implementation of response and recovery projects supporting
+                            aviation and critical infrastructure readiness during and after
+                            major weather events.
+                        </p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Aviation Systems Support</h3>
+                        <p class="project-meta">24+ Years · Aviation Sector</p>
+                        <p>
+                            Extensive hands-on experience as an avionic technician ensuring
+                            aircraft systems reliability, compliance, and operational readiness.
+                        </p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Regional Coordination Initiatives</h3>
+                        <p class="project-meta">Central Service Area</p>
+                        <p>
+                            Coordinating multi-site project implementation and resource
+                            alignment to strengthen regional disaster preparedness capabilities.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section section-alt">
+            <div class="section-inner">
+                <h2>Contact</h2>
+                <div class="contact-card">
+                    <p class="contact-intro">
+                        Interested in connecting about project implementation, aviation
+                        systems, or disaster response work? Reach out directly.
+                    </p>
+                    <address class="contact-details">
+                        <p>
+                            <strong>Kenneth Daily</strong><br />
+                            8230 NW County Road 4130<br />
+                            Frost, TX 76641
+                        </p>
+                        <p>
+                            <a href="tel:+18176004897" class="contact-link">
+                                817-600-4897
+                            </a>
+                        </p>
+                    </address>
+                    <a href="tel:+18176004897" class="btn btn-primary">Call Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Kenneth Daily. All rights reserved.</p>
+    </footer>
+
+   
+</body>
+</html> 
+                            
