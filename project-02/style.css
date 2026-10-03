@@ -262,6 +262,18 @@ a:hover {
     background: rgba(56, 189, 248, 0.08);
 }
 
+.btn-secondary {
+    background: linear-gradient(135deg, #6b7280, #9ca3af);
+    color: #fff;
+    border-color: transparent;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(107, 114, 128, 0.35);
+}
+
 /* ===== About ===== */
 .about-grid {
     display: grid;
