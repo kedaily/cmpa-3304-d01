@@ -428,9 +428,23 @@ a:hover {
 }
 
 /* ===== Mobile nav ===== */
-@media (max-width: 720px) {
+@media (max-width: 900px) {
     .nav-toggle {
         display: flex;
+        margin-left:auto;
+        position: relative;
+        z-index: 2;
+    }
+
+    .nav-check:checked ~ .main-nav {
+    max-height: 320px;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+    .logo {
+        position:relative;
+        z-index: 2;
     }
 
     .main-nav {
@@ -440,12 +454,10 @@ a:hover {
         right: 0;
         background: rgba(15, 23, 42, 0.98);
         border-bottom: 1px solid rgba(148, 163, 184, 0.15);
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease;
+        box-shadow: 0 16px 32px rgba(0, 0, 0, 0.25);
     }
 
-    .main-nav.is-open {
+    .main-nav.is-open:checked  {
         max-height: 320px;
     }
 
